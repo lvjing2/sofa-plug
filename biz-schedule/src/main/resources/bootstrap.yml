@@ -10,14 +10,14 @@ spring:
         refresh-enabled: true
       discovery:
         server-addr: 127.0.0.1:8848
-        namespace: garen-kingbase-dev
+        namespace: garen-mysql-dev
       username: nacos
       password: nacos
   jmx:
     default-domain: ${spring.application.name}
   datasource:
     driver_class_name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/biz-base?characterEncoding=utf8&useSSL=false
+    url: jdbc:mysql://localhost:3306/biz1?characterEncoding=utf8&useSSL=false
     username: root
     password: root
   jpa:
