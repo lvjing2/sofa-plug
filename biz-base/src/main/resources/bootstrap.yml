@@ -24,6 +24,7 @@ spring:
     database-platform: org.hibernate.dialect.MySQLDialect
 
 logging:
+  level.org.springframework: DEBUG
   file:
     path: ./logs/
   path: ./logs/

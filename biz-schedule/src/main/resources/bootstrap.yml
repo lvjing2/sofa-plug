@@ -31,3 +31,7 @@ logging:
   file:
     path: ./logs/
   path: ./logs/
+
+context:
+  initializer:
+    classes: com.alipay.sofa.koupleless.plugin.spring.BizApplicationContextInitializer
